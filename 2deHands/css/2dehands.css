@@ -1,0 +1,113 @@
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  color: #424242;
+  margin: 0px;
+  padding: 0px;
+  background-color: #fff7d8;
+}
+
+header {
+  background-color: #fff;
+}
+
+header ~ aside {
+  background-color: #5f92cd;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  background-color: #323e59;
+  padding: 1em;
+  clear: both;
+  color: #c8cad2;
+  overflow: auto;
+}
+
+#wrapper,
+#zoekpaneel,
+#logo {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+section {
+  margin-right: 170px;
+}
+
+#zoekpaneel {
+  padding: 5px;
+  overflow: auto;
+}
+
+#logo img {
+  width: 25%;
+  height: 25%;
+}
+
+#aantalProducten {
+  padding: 5px;
+}
+
+#overzichtProducten {
+  width: 200px;
+  float: left;
+}
+
+#overzichtProducten div {
+  text-align: center;
+  border: 1px outset #848583;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+  overflow: auto;
+}
+
+#overzichtProducten div img {
+  float: left;
+  margin: 5px;
+}
+
+#overzichtProducten div p {
+  margin: 3px;
+  padding-top: 3px;
+}
+
+.wit {
+  background-color: white;
+}
+
+#productDetails {
+  margin: 0px 5px 5px 230px;
+  background-color: white;
+  padding: 1px 15px 15px 15px;
+  display: none;
+}
+
+#thumbnails {
+  margin: 0px 0px 0px 295px;
+  padding: 0px;
+}
+
+#thumbnails img {
+  padding: 0px 5px 5px 0px;
+}
+
+#groteAfbeelding {
+  float: left;
+  width: 280px;
+  margin: 0px 5px 5px 5px;
+}
+
+#afbeeldingen {
+  overflow: auto;
+  padding: 0px;
+  margin: 0px;
+}
+
+.tekstVet {
+  font-weight: 700;
+}
