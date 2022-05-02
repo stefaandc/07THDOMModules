@@ -12,9 +12,7 @@ export class ProductenRepository {
   voegProductToe(product) {
     this.producten.push(product);
   }
-  geefProduct(id) {
-    return this.#producten.find((product) => product.id === id);
-  }
+
   geefProductenUitCategorie(categorie) {
     return !categorie
       ? this.producten
